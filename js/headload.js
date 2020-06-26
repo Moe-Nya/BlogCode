@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $(".li1").each(function(){
+        $(this).mouseover(function(){
+            $(this).children("ul").slideDown(300);
+        });
+        $(this).mouseleave(function(){
+            $(this).children("ul").hide();
+        });
+    })
+    $(".headphoto").fadeIn(1800);
+});
