@@ -1,0 +1,41 @@
+/* 移动端优化 */
+@media screen and (max-width: 952px)
+{
+    .myimformation
+    {
+        display:none;
+    }
+}
+/* 移动端优化 */
+
+div.myimformation
+{
+    height:200px;
+    width:320px;
+    margin:2px;
+    box-shadow: 4px 4px 3px #888888;
+    background-color:white;
+    border-radius: 6px;
+    position:absolute;
+    top:89%;
+    right:10%;
+}
+div.head
+{
+    height:70px;
+    width:70px;
+    background-image:url("../image/head.jpg");
+    background-size: cover;
+    border-radius:50%;
+    position:absolute;
+    top:10%;
+    left:37.5%;
+}
+div.talk
+{
+    height:auto;
+    width:auto;
+    text-align:center;
+    position:relative;
+    top:50%;
+}

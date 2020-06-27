@@ -31,4 +31,9 @@ function init()
         </ul>\
     </div>\
 </div>";
+
+    mid.innerHTML = "<div class=\"myimformation\">\
+                    <div class=\"head\"></div>\
+                    <div class=\"talk\"><p><span style=\"color:red\">写代码是热爱，</span><span style=\"color:turquoise\">写到世界充满爱！</span></p></div>\
+                    </div>";
 }

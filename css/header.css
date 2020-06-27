@@ -1,3 +1,8 @@
+body
+    {
+        background-color:whitesmoke;
+    }
+
 /*头部边框*/
 div.headborder
 {
@@ -19,7 +24,7 @@ div.headphoto
     width:100%;
     display:none;
     background-image:url("../image/hiMoeNya.png");
-    background-size:60% auto;
+    background-size:70% auto;
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-position-y:center;
