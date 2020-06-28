@@ -36,7 +36,7 @@ div.midimfor
 
 div.myimformation
 {
-    height:200px;
+    height:120px;
     width:320px;
     margin:0px;
     padding:0px;
@@ -64,17 +64,79 @@ div.talk
     width:auto;
     text-align:center;
     position:relative;
-    top:50%;
+    top:60%;
 }
 
 div.midAboutMe
 {
-    height:40px;
+    height:30px;
     width:320px;
     margin:0px;
     padding:0px;
     background-color:white;
+    border-width:0 0 1px 0;
+    border-color: #363636;
     float:right;
     position:relative;
-    top:5px;
+    top:1px;
+}
+
+.midAboutMeStyle
+{
+    height:30px;
+    width:30px; 
+    background-image: url("../image/QQ.png");
+    background-size: cover;
+    position:absolute;
+    top:1px;
+    left:90px;
+}
+
+.midAboutMeStyle2
+{
+    height:30px;
+    width:30px; 
+    background-image: url("../image/bilibili.png");
+    background-size: cover;
+    position:absolute;
+    top:1px;
+    left:90px;
+}
+
+.midAboutMeStyle3
+{
+    height:30px;
+    width:30px; 
+    background-image: url("../image/github.png");
+    background-size: cover;
+    position:absolute;
+    top:1px;
+    left:90px;
+}
+
+.midAboutMeStyle4
+{
+    height:30px;
+    width:30px; 
+    background-image: url("../image/twitter.png");
+    background-size: cover;
+    position:absolute;
+    top:1px;
+    left:90px;
+}
+
+.a4:link,.a4:visited,.a4
+{
+    height:auto;
+    width:auto;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    text-align: center;
+    display:block;
+    margin:0px;
+    padding-top:6px;
+    font-size:15px;
+    position: absolute;
+    left:130px;
 }
