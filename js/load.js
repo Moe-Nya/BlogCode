@@ -32,8 +32,11 @@ function init()
     </div>\
 </div>";
 
-    mid.innerHTML = "<div class=\"myimformation\">\
-                    <div class=\"head\"></div>\
-                    <div class=\"talk\"><p><span style=\"color:red\">写代码是热爱，</span><span style=\"color:turquoise\">写到世界充满爱！</span></p></div>\
+    mid.innerHTML = "<div class = \"midimfor\">\
+                        <div class = \"myimformation\">\
+                        <div class = \"head\"></div>\
+                        <div class = \"talk\"><p><span style=\"color:red\">写代码是热爱，</span><span style=\"color:turquoise\">写到世界充满爱！</span></p></div>\
+                    </div>\
+                    <div class = \"midAboutMe\">1404058996</div>\
                     </div>";
 }

@@ -1,25 +1,52 @@
 /* 移动端优化 */
 @media screen and (max-width: 952px)
 {
-    .myimformation
+    .midimfor
     {
         display:none;
     }
 }
 /* 移动端优化 */
 
+div.main
+{
+    width:100%;
+    height:auto;
+    margin:0px;
+    padding:0px;
+    position: absolute;
+    top:84%;
+    left:0px;
+}
+
+div.midimfor
+{
+    height:auto;
+    width:320px;
+    margin:0px;
+    padding:0px;
+    box-shadow: 4px 4px 3px #888888;
+    background-color:white;
+    border-radius: 6px;
+    float:right;
+    position:relative;
+    top:15px;
+    right:5%;
+}
+
 div.myimformation
 {
     height:200px;
     width:320px;
-    margin:2px;
-    box-shadow: 4px 4px 3px #888888;
+    margin:0px;
+    padding:0px;
     background-color:white;
     border-radius: 6px;
-    position:absolute;
-    top:89%;
-    right:10%;
+    float:right;
+    position:relative;
+    top:1px;
 }
+
 div.head
 {
     height:70px;
@@ -38,4 +65,16 @@ div.talk
     text-align:center;
     position:relative;
     top:50%;
+}
+
+div.midAboutMe
+{
+    height:40px;
+    width:320px;
+    margin:0px;
+    padding:0px;
+    background-color:white;
+    float:right;
+    position:relative;
+    top:5px;
 }
