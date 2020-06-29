@@ -55,11 +55,17 @@ function init()
                         <a class = \"a4\" href = \"https://twitter.com/C_Moe_Nya_N\" target = \"_blank\">&nbsp&nbspTwitter</a>\
                     </div>\
                     <div class = \"midAboutMe2\">\
-                        <div class = \"midAboutMeStyle5\" id = \"midabme\">\
-                        111\
+                        <div class = \"midAboutMeStyle5\" id = \"midabme1\">\
+                        最喜欢的作品\
                         </div>\
-                        <div class = \"midAboutMeStyle6\" id = \"midabme\">\
-                        111\
+                        <div class = \"midAboutMeStyle5\" id = \"midabme2\">\
+                        最喜欢的女孩子\
+                        </div>\
+                        <div class = \"midAboutMeStyle5\" id = \"midabme3\">\
+                        最喜欢的游戏\
+                        </div>\
+                        <div class = \"midAboutMeStyle5\" id = \"midabme4\">\
+                        工作\
                         </div>\
                     </div>\
                     </div>\

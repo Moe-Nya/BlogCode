@@ -63,6 +63,7 @@ div.talk
     height:auto;
     width:auto;
     text-align:center;
+    cursor: default;
     position:relative;
     top:60%;
 }
@@ -74,8 +75,7 @@ div.midAboutMe
     margin:0px;
     padding:0px;
     background-color:white;
-    border-width:0 0 1px 0;
-    border-color: #363636;
+    border-radius: 6px;
     float:right;
     position:relative;
     top:1px;
@@ -87,6 +87,7 @@ div.midAboutMe
     width:30px; 
     background-image: url("../image/QQ.png");
     background-size: cover;
+    border-radius: 6px;
     position:absolute;
     top:1px;
     left:90px;
@@ -120,6 +121,7 @@ div.midAboutMe
     width:30px; 
     background-image: url("../image/twitter.png");
     background-size: cover;
+    border-radius: 6px;
     position:absolute;
     top:1px;
     left:90px;
@@ -148,8 +150,7 @@ div.midAboutMe2
     margin:0px;
     padding:0px;
     background-color:white;
-    border-width:0 0 1px 0;
-    border-color: #363636;
+    border-radius: 6px;
     float:left;
     cursor: pointer;
     position:relative;
@@ -160,22 +161,27 @@ div.midAboutMe2
 {
     height:16px;
     width:130px;
-    font-size:15px;
+    border-radius: 6px;
+    font-size:13px;
     font-weight:bold;
     float:left;
+    padding-top:10px;
     position: relative;
-    top:20px;
+    top:5px;
     left:15px;
 }
 
-.midAboutMeStyle6
+div.midAboutMe3
 {
-    height:16px;
+    height:150px;
     width:130px;
-    font-size:15px;
-    font-weight:bold;
-    float:left;
-    position: relative;
-    top:30px;
-    left:15px;
+    margin:0px;
+    padding:0px;
+    background-color:white;
+    border-radius: 6px;
+    float:right;
+    cursor: default;
+    cursor: pointer;
+    position:relative;
+    top:1px;
 }
