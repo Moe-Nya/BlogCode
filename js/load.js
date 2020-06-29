@@ -5,6 +5,7 @@ function init()
     var loadhead = document.getElementById("header");
     var loadfooter = document.getElementById("footer");
     var mid = document.getElementById("mid");
+    //头部样式//
     loadhead.innerHTML = "<div class = \"headborder\">\
     <div class=\"headphoto\"></div>\
     <div class = \"NavigationBar\">\
@@ -31,7 +32,9 @@ function init()
         </ul>\
     </div>\
 </div>";
+    //-------//
 
+    //侧边栏样式//
     mid.innerHTML = "<div class = \"main\">\
                     <div class = \"midimfor\">\
                         <div class = \"myimformation\">\
@@ -68,7 +71,9 @@ function init()
                         工作\
                         </div>\
                     </div>\
+                    <div class = \"midAboutMe3\" id = \"midAboutMe3\"></div>\
                     </div>\
                     </div>\
                     ";
+    //-------//
 }
