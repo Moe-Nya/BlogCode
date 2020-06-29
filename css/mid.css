@@ -144,24 +144,38 @@ div.midAboutMe
 div.midAboutMe2
 {
     height:150px;
-    width:320px;
+    width:140px;
     margin:0px;
     padding:0px;
     background-color:white;
     border-width:0 0 1px 0;
     border-color: #363636;
-    float:right;
+    float:left;
+    cursor: pointer;
     position:relative;
     top:1px;
 }
 
 .midAboutMeStyle5
 {
-    height:150px;
+    height:16px;
     width:130px;
     font-size:15px;
     font-weight:bold;
     float:left;
-    padding-left:30px;
-    padding-top:20px;
+    position: relative;
+    top:20px;
+    left:15px;
+}
+
+.midAboutMeStyle6
+{
+    height:16px;
+    width:130px;
+    font-size:15px;
+    font-weight:bold;
+    float:left;
+    position: relative;
+    top:30px;
+    left:15px;
 }

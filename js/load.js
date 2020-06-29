@@ -55,7 +55,10 @@ function init()
                         <a class = \"a4\" href = \"https://twitter.com/C_Moe_Nya_N\" target = \"_blank\">&nbsp&nbspTwitter</a>\
                     </div>\
                     <div class = \"midAboutMe2\">\
-                        <div class = \"midAboutMeStyle5\">\
+                        <div class = \"midAboutMeStyle5\" id = \"midabme\">\
+                        111\
+                        </div>\
+                        <div class = \"midAboutMeStyle6\" id = \"midabme\">\
                         111\
                         </div>\
                     </div>\
