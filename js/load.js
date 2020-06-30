@@ -3,8 +3,8 @@ window.onload = init;
 function init()
 {
     var loadhead = document.getElementById("header");
-    var loadfooter = document.getElementById("footer");
     var mid = document.getElementById("mid");
+    var loadfooter = document.getElementById("footer");
     //头部样式//
     loadhead.innerHTML = "<div class = \"headborder\">\
     <div class=\"headphoto\"></div>\
