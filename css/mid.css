@@ -134,6 +134,18 @@ div.midAboutMe
     top:1px;
     left:90px;
 }
+
+.midAboutMeStyle5
+{
+    height:30px;
+    width:30px; 
+    background-image: url("../image/mail.png");
+    background-size: cover;
+    border-radius: 6px;
+    position:absolute;
+    top:1px;
+    left:90px;
+}
 /*-----*/
 
 .a4:link,.a4:visited,.a4
@@ -168,7 +180,7 @@ div.midAboutMe2 /*左框*/
     top:1px;
 }
 
-.midAboutMeStyle5 /*左框样式*/
+.midAboutMeStyle6 /*左框样式*/
 {
     height:16px;
     width:130px;
