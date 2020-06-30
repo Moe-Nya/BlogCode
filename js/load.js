@@ -4,38 +4,37 @@ function init()
 {
     var loadhead = document.getElementById("header");
     var mid = document.getElementById("mid");
-    var loadfooter = document.getElementById("footer");
     //头部样式//
     loadhead.innerHTML = "<div class = \"headborder\">\
-    <div class=\"headphoto\"></div>\
-    <div class = \"NavigationBar\">\
-        <ul class = \"ul1\" id = \"ulone\">\
-            <li class = \"li1\"><a class = \"a2\" href = \"https://nekohome.moenya.cat\">Neko喵窝</a></li>\
-            <li class = \"li1\"><a class = \"a1\" href = \"https://testa.moenya.cat\">首页</a></li>\
-            <li class = \"li1\"><a class = \"a1\" href = \"#\">抓到我</a>\
-                <ul class = \"ul2\" id = \"ultwo\">\
-                    <li class = \"li2\"><a class = \"a3\" href = \"https://space.bilibili.com/8522226\" target = \"_blank\">Bilibili</a></li>\
-                    <li class = \"li2\"><a class = \"a3\" href = \"https://twitter.com/C_Moe_Nya_N\" target = \"_blank\">Twitter</a></li>\
-                    <li class = \"li2\"><a class = \"a3\" href = \"https://github.com/Moe-Nya\" target = \"_blank\">GitHub</a></li>\
-                    <li class = \"li2\"><a class = \"a3\" href = \"https://steamcommunity.com/id/moenya/\" target = \"_blank\">Steam</a></li>\
-                </ul>\
-            </li>\
-            <li class = \"li1\"><a class = \"a1\" href = \"#\">邻家友猫</a></li>\
-            <li class = \"li1\"><a class = \"a1\" href = \"#\">便利贴~</a></li>\
-            <li class = \"li1\"><a class = \"a1\" href = \"#\">追番!</a>\
-                <ul class = \"ul2\" id = \"ultwo\">\
-                    <li class = \"li2\"><a class = \"a3\" href = \"#\" target = \"_blank\">动画电影</a></li>\
-                    <li class = \"li2\"><a class = \"a3\" href = \"#\" target = \"_blank\">TV动画</a></li>\
-                </ul>\
-            </li>\
-            <li class = \"li1\"><a class = \"a1\" href = \"#\">留言</a></li>\
-        </ul>\
-    </div>\
-</div>";
+                        <div class=\"headphoto\"></div>\
+                        <div class = \"NavigationBar\">\
+                            <ul class = \"ul1\" id = \"ulone\">\
+                                <li class = \"li1\"><a class = \"a2\" href = \"https://nekohome.moenya.cat\">Neko喵窝</a></li>\
+                                <li class = \"li1\"><a class = \"a1\" href = \"https://testa.moenya.cat\">首页</a></li>\
+                                <li class = \"li1\"><a class = \"a1\" href = \"#\">抓到我</a>\
+                                    <ul class = \"ul2\" id = \"ultwo\">\
+                                        <li class = \"li2\"><a class = \"a3\" href = \"https://space.bilibili.com/8522226\" target = \"_blank\">Bilibili</a></li>\
+                                        <li class = \"li2\"><a class = \"a3\" href = \"https://twitter.com/C_Moe_Nya_N\" target = \"_blank\">Twitter</a></li>\
+                                        <li class = \"li2\"><a class = \"a3\" href = \"https://github.com/Moe-Nya\" target = \"_blank\">GitHub</a></li>\
+                                        <li class = \"li2\"><a class = \"a3\" href = \"https://steamcommunity.com/id/moenya/\" target = \"_blank\">Steam</a></li>\
+                                    </ul>\
+                                </li>\
+                                <li class = \"li1\"><a class = \"a1\" href = \"#\">邻家友猫</a></li>\
+                                <li class = \"li1\"><a class = \"a1\" href = \"#\">便利贴~</a></li>\
+                                <li class = \"li1\"><a class = \"a1\" href = \"#\">追番!</a>\
+                                    <ul class = \"ul2\" id = \"ultwo\">\
+                                        <li class = \"li2\"><a class = \"a3\" href = \"#\" target = \"_blank\">动画电影</a></li>\
+                                        <li class = \"li2\"><a class = \"a3\" href = \"#\" target = \"_blank\">TV动画</a></li>\
+                                    </ul>\
+                                </li>\
+                                <li class = \"li1\"><a class = \"a1\" href = \"#\">留言</a></li>\
+                            </ul>\
+                        </div>\
+                    </div>";
     //-------//
 
-    //侧边栏样式//
-    mid.innerHTML = "<div class = \"main\">\
+    //侧边栏样式和jio部样式//
+    mid.innerHTML = "\
                 <div class = \"midimfor\">\
                         <div class = \"myimformation\">\
                         <div class = \"head\"></div>\
@@ -77,7 +76,8 @@ function init()
                     </div>\
                     <div class = \"midAboutMe3\" id = \"midAboutMe3\"></div>\
                 </div>\
-                </div>\
+                <div class = \"writebox\" id = \"writebox\"></div>\
+                <div id = \"footer\"></div>\
                     ";
     //-------//
 }

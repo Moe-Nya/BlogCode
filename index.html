@@ -8,11 +8,14 @@
     <script type = "text/javascript" src = "js/load.js"></script>
     <script type="text/javascript" src = "js/headload.js"></script>
     <script type="text/javascript" src = "js/midload.js"></script>
+    <script type="text/javascript" src = "js/writeload.js"></script>
     <link rel = "stylesheet" type = "text/css" href = "css/header.css">
     <link rel = "stylesheet" type = "text/css" href = "css/mid.css">
+    <link rel = "stylesheet" type = "text/css" href = "css/foot.css">
     <link rel="shortcut icon" href="image/hjl2.png" type="image/x-icon" />
     <title>(*゜ロ゜)ノ被发现了~</title>
     <script type="text/javascript"> 
+        document.title='Hi,MoeNyaです';
         window.onblur = function() 
         { 
         document.title='(つ ェ ⊂)我藏好了哦~'; 
@@ -20,14 +23,13 @@
         window.onfocus = function() 
         { 
         document.title='(*゜ロ゜)ノ被发现了~'; 
+        setTimeout("document.title='Hi,MoeNyaです'", 1500);
         }
         </script>
 </head>
 <body>
     <div id = "header"></div>
-    <div class = "main" id = "main">
-        <div id = "mid"></div>
+    <div class = "main" id = "mid">
     </div>
-    <div id = "footer"></div>
 </body>
 </html>

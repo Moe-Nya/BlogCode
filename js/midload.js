@@ -75,7 +75,7 @@ $(document).ready(function(){
         midabme2.style.color = "#000000b7";
         midabme3.style.color = "#000000b7";
 
-        midAboutMe3.innerHTML = "学生(全栈游戏开发工程师、美术监督、音乐监督)";
+        midAboutMe3.innerHTML = "游戏全栈开发工程师、美术监督、音乐监督←这是梦想；<br>学生←这才是现实";
         midabme4.style.color = "#1fb3b3ab";
     }
 });
