@@ -3,5 +3,9 @@ $(document).ready(function (){
 
     writebox.innerHTML = "<div class = \"write\"></div>\
                         <div class = \"write\"></div>\
+                        <div class = \"write\"></div>\
+                        <div class = \"write\"></div>\
+                        <div class = \"write\"></div>\
+                        <div class = \"write\"></div>\
                         ";
 });

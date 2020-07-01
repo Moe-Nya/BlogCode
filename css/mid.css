@@ -1,9 +1,121 @@
 /* 移动端优化 */
-@media screen and (max-width: 952px)
+@media screen and (max-width: 1320px)
 {
-    .midimfor
+    div.midimfor
+    {
+        height:auto;
+        width:320px;
+        margin:0px;
+        padding:0px;
+        box-shadow: 4px 4px 3px #888888;
+        background-color:white;
+        border-radius: 6px;
+        float:right;
+        position:absolute;
+        top:15px;
+        right:30px;
+    }
+
+    div.writebox
+    {
+        width:840px;
+        height:auto;
+        margin:0px;
+        padding:0px;
+        position:relative;
+        top:15px;
+        left:30px;
+    }
+}
+
+@media screen and (max-width: 1250px)
+{
+    div.midimfor
+    {
+        height:auto;
+        width:320px;
+        margin:0px;
+        padding:0px;
+        box-shadow: 4px 4px 3px #888888;
+        background-color:white;
+        border-radius: 6px;
+        float:right;
+        position:absolute;
+        top:15px;
+        right:15px;
+    }
+
+    div.writebox
+    {
+        width:830px;
+        height:auto;
+        margin:0px;
+        padding:0px;
+        position:relative;
+        top:15px;
+        left:15px;
+    }
+}
+
+@media screen and (max-width: 1205px)
+{
+    div.midimfor
+    {
+        height:auto;
+        width:320px;
+        margin:0px;
+        padding:0px;
+        box-shadow: 4px 4px 3px #888888;
+        background-color:white;
+        border-radius: 6px;
+        float:right;
+        position:absolute;
+        top:15px;
+        right:5px;
+    }
+
+    div.writebox
+    {
+        width:800px;
+        height:auto;
+        margin:0px;
+        padding:0px;
+        position:relative;
+        top:15px;
+        left:5px;
+    }
+}
+
+@media screen and (max-width: 1205px)
+{
+    div.writebox
+    {
+        width:700px;
+        height:auto;
+        margin:0px;
+        padding:0px;
+        position:relative;
+        top:15px;
+        left:5px;
+    }
+}
+
+@media screen and (max-width: 1055px)
+{
+    div.midimfor
     {
         display:none;
+    }
+
+    div.writebox
+    {
+        width:96%;
+        height:auto;
+        margin:0px;
+        padding:0px;
+        position:relative;
+        top:15px;
+        left:2%;
     }
 }
 /* 移动端优化 */
@@ -23,7 +135,7 @@
 /*-------*/
 
 /*侧边信息栏框架*/
-div.midimfor
+.midimfor
 {
     height:auto;
     width:320px;
@@ -35,7 +147,7 @@ div.midimfor
     float:right;
     position:relative;
     top:15px;
-    right:5%;
+    right:60px;
 }
 /*-------*/
 
@@ -217,25 +329,25 @@ div.midAboutMe3 /*右框*/
 /*文章部分*/
 .writebox
 {
-    width:60%;
+    width:850px;
     height:auto;
     margin:0px;
     padding:0px;
     float:left;
     position:relative;
     top:15px;
-    left:5%;
+    left:60px;
 }
 
 .write
 {
-    height:260px;
+    height:400px;
     width:100%;
     box-shadow: 4px 4px 3px #888888;
     background-color:white;
     border-radius: 6px;
     float:left;
-    margin:10px;
+    margin-top:20px;
     position:relative;
     top:5%;
     left:0;
