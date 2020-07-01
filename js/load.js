@@ -80,7 +80,7 @@ function init()
                 <div id = \"footer\">\
                 <p class = \"footstyle\">版权所有©2018-2020&nbsp <a class = \"foota\" target = \"_blank\" href = \"https://nekohome.moenya.cat\">Neko 喵窝</a>\
                 <br>Hi,MoeNyaです by MoeNya with <i class = \"heart\"></i>\
-                <br><span class = \"myface\">(●'◡'●)ﾉ</span>本博客在各种灾难中艰难的存活了<span class = \"time\"></span>天\
+                <br><span class = \"shake-slow\">(●'◡'●)ﾉ</span>本博客在各种灾难中艰难的存活了<span class = \"time\" id = \"time\"></span>\
                 </p>\
                 </div>\
                     ";
