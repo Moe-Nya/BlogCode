@@ -147,7 +147,7 @@
     float:right;
     position:relative;
     top:15px;
-    right:60px;
+    right:5%;
 }
 /*-------*/
 
@@ -329,14 +329,14 @@ div.midAboutMe3 /*右框*/
 /*文章部分*/
 .writebox
 {
-    width:850px;
+    width:60%;
     height:auto;
     margin:0px;
     padding:0px;
     float:left;
     position:relative;
     top:15px;
-    left:60px;
+    left:5%;
 }
 
 .write
