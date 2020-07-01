@@ -164,7 +164,7 @@ div.NavigationBar
     cursor: pointer;
     position: fixed;
     right: 50px;
-    top: 0px;
+    top: -30%;
     z-index: 2;
     width: 70px;
     height: 900px;
