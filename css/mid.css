@@ -352,4 +352,14 @@ div.midAboutMe3 /*右框*/
     top:5%;
     left:0;
 }
+
+.theArticle
+{
+    height:80%;
+    width:80%;
+    text-align:center;
+    position: relative;
+    top:10%;
+    left:10%;
+}
 /*------*/
