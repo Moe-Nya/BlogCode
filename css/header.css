@@ -157,3 +157,29 @@ div.NavigationBar
     line-height:67px;
 }
 /*----*/
+
+/*返回顶部*/
+#cat
+{
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    top: 0px;
+    z-index: 2;
+    width: 70px;
+    height: 900px;
+    background: url(../image/scroll.png);
+    display: none;
+}
+
+
+@media screen and (max-width:1055px)
+{
+    #cat
+    {
+        display: none;
+        height: 60px;
+        width: 50px;
+    }
+}
+/*----*/

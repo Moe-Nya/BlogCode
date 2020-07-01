@@ -28,6 +28,23 @@ $(document).ready(function(){
     LoadImg(i);
 
     //------------
+
+    $(window).scroll(function (){
+        if($(document).scrollTop() >= 800)
+        {
+            var catToTop = document.getElementById("cat");
+            catToTop.style.display = "block";
+        }
+        else if($(document).scrollTop() < 800)
+        {
+            var catToTop = document.getElementById("cat");
+            catToTop.style.display = "none";
+        }
+    });
+    $("#cat").click(function(){
+        $('html,body').animate({scrollTop:0},500);
+    });
+
 });
 
 function Load()

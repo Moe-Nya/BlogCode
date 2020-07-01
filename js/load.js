@@ -5,7 +5,8 @@ function init()
     var loadhead = document.getElementById("header");
     var mid = document.getElementById("mid");
     //头部样式//
-    loadhead.innerHTML = "<div class = \"headborder\">\
+    loadhead.innerHTML = "<a id = \"cat\"></a>\
+                        <div class = \"headborder\">\
                         <div class=\"headphoto\"></div>\
                         <div class = \"NavigationBar\">\
                             <ul class = \"ul1\" id = \"ulone\">\
