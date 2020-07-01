@@ -45,7 +45,7 @@
     display:inherit;
     transform-origin:center center;
 }
-.shake-freeze,.shake-constant.shake-constant--hover:hover,.shake-trigger:hover .shake-constant.shake-constant--hover
+.shake-freeze,.shake-constant.shake-constant--hover:hover,.shake-trigger:hover,.shake-constant,.shake-constant--hover
 {
     animation-play-state:paused;
 }
@@ -254,10 +254,11 @@
         transform:translate(0, 0) rotate(0)
     }
 }
-.shake-slow:hover,.shake-trigger:hover .shake-slow,.shake-slow.shake-freeze,.shake-slow.shake-constant
+.shake-slow,.shake-slow.shake-freeze,.shake-slow.shake-constant
 {
     animation-name:shake-slow;
     animation-duration:5s;
     animation-timing-function:ease-in-out;
     animation-iteration-count:infinite;
+    animation-delay:0s;
 }
