@@ -410,15 +410,15 @@ div.midAboutMe3 /*右框*/
     cursor: pointer;
     font-size: 16px;
     color:white;
-    text-align:center;
+    display:inline-block;
     vertical-align:middle;
+    text-align:center;
     line-height:30px;
     height:30px;
     width:100px;
     background-color: #97dffd;
     border-radius:6px;
     position: relative;
-    left:42.5%;
-    bottom:-110px;
+    bottom:-90px;
 }
 /*------*/
