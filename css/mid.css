@@ -401,8 +401,9 @@ div.midAboutMe3 /*右框*/
 
 .articleP
 {
+    width:auto;
     position:relative;
-    top:30px;
+    top:5px;
 }
 
 .read
@@ -418,7 +419,15 @@ div.midAboutMe3 /*右框*/
     width:100px;
     background-color: #97dffd;
     border-radius:6px;
-    position: relative;
-    bottom:-90px;
+    position:relative;
+    bottom: -50px;
+}
+
+@media screen and (max-width:355px)
+{
+    div.read
+    {
+        display:none;
+    }
 }
 /*------*/
