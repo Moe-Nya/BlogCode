@@ -6,23 +6,23 @@ $(document).ready(function (){
                         <h1 class = \"articleH1\" id = \"articleH1\"><a href = \"html/articles/搭建一个TeamSpeak3服务器.html\" target = \"show\">搭建一个TeamSpeak3服务器</a></h1>\
                         <span class = \"time\"><i class = \"articleIcon\"></i>&nbsp发表于&nbsp2020-06-24&nbsp•&nbsp<i class = \"wordNum\"></i>&nbsp字数统计&nbsp445</span>\
                         <p class = \"articleP\">TS占用资源和带宽比较少，于是我想搞一个，反正服务器压力不大。</p>\
-                        <div class = \"read\"\ id = \"read\"\><a href = \"#\">阅读全文»</a><div>\
+                        <div class = \"read\"\ id = \"read\"\><a href = \"html/articles/搭建一个TeamSpeak3服务器.html\" target = \"show\">阅读全文»</a><div>\
                         </article>\
                         </div>\
                         <div class = \"write\">\
                         <article class = \"theArticle\">\
-                        <h1 class = \"articleH1\" id = \"articleH1\"><a href = \"#\">天气之子：为了爱不顾一切</a></h1>\
+                        <h1 class = \"articleH1\" id = \"articleH1\"><a href = \"html/articles/天气之子：为了爱不顾一切.html\" target = \"show\">天气之子：为了爱不顾一切</a></h1>\
                         <span class = \"time\"><i class = \"articleIcon\"></i>&nbsp发表于&nbsp2019-11-02&nbsp•&nbsp<i class = \"wordNum\"></i>&nbsp字数统计&nbsp1678</span>\
                         <p class = \"articleP\">《你的名字》上映三年后，旧（新）海诚的新作《天气之子》也来啦~，我还是去看了首映，一个人。这次的作品更加成熟质量Max，也因此在日本冲破130亿日元的票房。</p>\
-                        <div class = \"read\"\ id = \"read\"\><a href = \"#\">阅读全文»</a><div>\
+                        <div class = \"read\"\ id = \"read\"\><a href = \"html/articles/天气之子：为了爱不顾一切.html\" target = \"show\">阅读全文»</a><div>\
                         </article>\
                         </div>\
                         <div class = \"write\">\
                         <article class = \"theArticle\">\
-                        <h1 class = \"articleH1\" id = \"articleH1\"><a href = \"#\">你好，爱拍！ 再见，爱拍。</a></h1>\
+                        <h1 class = \"articleH1\" id = \"articleH1\"><a href = \"html/articles/你好，爱拍，再见，爱拍！.html\" target = \"show\">你好，爱拍！ 再见，爱拍。</a></h1>\
                         <span class = \"time\"><i class = \"articleIcon\"></i>&nbsp发表于&nbsp2019-10-01&nbsp•&nbsp<i class = \"wordNum\"></i>&nbsp字数统计&nbsp1456</span>\
                         <p class = \"articleP\">今天来聊聊爱拍原创这个网站，2009年，爱拍原创为当时的中国互联网注入了新的血液。作为国内早期原创视频网站，爱拍在当时是一个重量级网站。</p>\
-                        <div class = \"read\"\ id = \"read\"\><a href = \"#\">阅读全文»</a><div>\
+                        <div class = \"read\"\ id = \"read\"\><a href = \"html/articles/你好，爱拍，再见，爱拍！.html\" target = \"show\">阅读全文»</a><div>\
                         </article>\
                         </div>\
                         <div class = \"write\">\
@@ -51,7 +51,10 @@ $(document).ready(function (){
                         </div>\
                         ";
 
-    $("#articleH1").click(function(){
+    $(".articleH1").click(function(){
+        writebox.innerHTML = "<iframe height=\"100%\" width=\"100%\" name = \"show\" frameborder = 0 scrolling = \"no\" class = \"wshow\"></iframe>";
+    });
+    $(".read").click(function(){
         writebox.innerHTML = "<iframe height=\"100%\" width=\"100%\" name = \"show\" frameborder = 0 scrolling = \"no\" class = \"wshow\"></iframe>";
     });
 });
