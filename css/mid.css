@@ -419,8 +419,10 @@ div.midAboutMe3 /*右框*/
     width:100px;
     background-color: #97dffd;
     border-radius:6px;
-    position:relative;
-    bottom: -50px;
+    position:absolute;
+    bottom: 2%;
+    left:50%;
+    margin-left:-50px;
 }
 
 .read a
