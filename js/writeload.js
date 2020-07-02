@@ -3,10 +3,10 @@ $(document).ready(function (){
 
     writebox.innerHTML = "<div class = \"write\">\
                         <article class = \"theArticle\">\
-                        <h1 class = \"articleH1\" id = \"articleH1\"><a href = \"html/articles/搭建一个TeamSpeak3服务器.html\" target = \"show\">搭建一个TeamSpeak3服务器</a></h1>\
-                        <span class = \"time\"><i class = \"articleIcon\"></i>&nbsp发表于&nbsp2020-06-24&nbsp•&nbsp<i class = \"wordNum\"></i>&nbsp字数统计&nbsp445</span>\
-                        <p class = \"articleP\">TS占用资源和带宽比较少，于是我想搞一个，反正服务器压力不大。</p>\
-                        <div class = \"read\"\ id = \"read\"\><a href = \"html/articles/搭建一个TeamSpeak3服务器.html\" target = \"show\">阅读全文»</a><div>\
+                        <h1 class = \"articleH1\" id = \"articleH1\"><a href = \"html/articles/Hi,MoeNya です.html\" target = \"show\">Hi,MoeNya です</a></h1>\
+                        <span class = \"time\"><i class = \"articleIcon\"></i>&nbsp发表于&nbsp2020-07-02&nbsp•&nbsp<i class = \"wordNum\"></i>&nbsp字数统计&nbsp445</span>\
+                        <p class = \"articleP\">Hi,MoeNya です简介以及作者的话</p>\
+                        <div class = \"read\"\ id = \"read\"\><a href = \"html/articles/Hi,MoeNya です.html\" target = \"show\">阅读全文»</a><div>\
                         </article>\
                         </div>\
                         <div class = \"write\">\
@@ -27,26 +27,26 @@ $(document).ready(function (){
                         </div>\
                         <div class = \"write\">\
                         <article class = \"theArticle\">\
-                        <h1 class = \"articleH1\" id = \"articleH1\"><a href = \"#\">KFC兼职：人生中的第一桶金</a></h1>\
+                        <h1 class = \"articleH1\" id = \"articleH1\"><a href = \"html/articles/KFC兼职：人生中的第一桶金.html\" target = \"show\">KFC兼职：人生中的第一桶金</a></h1>\
                         <span class = \"time\"><i class = \"articleIcon\"></i>&nbsp发表于&nbsp2019-09-30&nbsp•&nbsp<i class = \"wordNum\"></i>&nbsp字数统计&nbsp1522</span>\
                         <p class = \"articleP\">首先想给各位跃跃欲试做兼职的学生党们一个建议，不要去KFC。</p>\
-                        <div class = \"read\"\ id = \"read\"\><a href = \"#\">阅读全文»</a><div>\
+                        <div class = \"read\"\ id = \"read\"\><a href = \"html/articles/KFC兼职：人生中的第一桶金.html\" target = \"show\">阅读全文»</a><div>\
                         </article>\
                         </div>\
                         <div class = \"write\">\
                         <article class = \"theArticle\">\
-                        <h1 class = \"articleH1\" id = \"articleH1\"><a href = \"#\">Microsoft surface pro 6 苏菲6初体验</a></h1>\
+                        <h1 class = \"articleH1\" id = \"articleH1\"><a href = \"html/articles/Microsoft surface pro 6 苏菲6初体验.html\" target = \"show\">Microsoft surface pro 6 苏菲6初体验</a></h1>\
                         <span class = \"time\"><i class = \"articleIcon\"></i>&nbsp发表于&nbsp2019-09-27&nbsp•&nbsp<i class = \"wordNum\"></i>&nbsp字数统计&nbsp972</span>\
                         <p class = \"articleP\">刚刚高中毕业的博主也陷入了新设备选购的困难（贫穷蒙蔽了我的双眼），但是和别人不一样的是，我并不是要一个游戏级的设备，而是一个办公级别的设备。</p>\
-                        <div class = \"read\"\ id = \"read\"\><a href = \"#\">阅读全文»</a><div>\
+                        <div class = \"read\"\ id = \"read\"\><a href = \"html/articles/Microsoft surface pro 6 苏菲6初体验.html\" target = \"show\">阅读全文»</a><div>\
                         </article>\
                         </div>\
                         <div class = \"write\">\
                         <article class = \"theArticle\">\
-                        <h1 class = \"articleH1\" id = \"articleH1\"><a href = \"#\">K-ON！ 回响！</a></h1>\
+                        <h1 class = \"articleH1\" id = \"articleH1\"><a href = \"html/articles/K-ON！ 回响！.html\" target = \"show\">K-ON！ 回响！</a></h1>\
                         <span class = \"time\"><i class = \"articleIcon\"></i>&nbsp发表于&nbsp2019-09-25&nbsp•&nbsp<i class = \"wordNum\"></i>&nbsp字数统计&nbsp1347</span>\
                         <p class = \"articleP\">5月13号，B站买回轻音后我也是把这部动画又看了一遍，我也不知道这是我看的第几遍了，轻音是我唯一一个多刷了的动画。</p>\
-                        <div class = \"read\"\ id = \"read\"\><a href = \"#\">阅读全文»</a><div>\
+                        <div class = \"read\"\ id = \"read\"\><a href = \"html/articles/K-ON！ 回响！.html\" target = \"show\">阅读全文»</a><div>\
                         </article>\
                         </div>\
                         ";

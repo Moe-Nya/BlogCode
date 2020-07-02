@@ -21,7 +21,7 @@ function init()
                                     </ul>\
                                 </li>\
                                 <li class = \"li1\"><a class = \"a1\" href = \"#\">邻家友猫</a></li>\
-                                <li class = \"li1\"><a class = \"a1\" href = \"#\">便利贴~</a></li>\
+                                <li class = \"li1\"><a class = \"a1\" href = \"#\">关于我~</a></li>\
                                 <li class = \"li1\"><a class = \"a1\" href = \"#\">追番!</a>\
                                     <ul class = \"ul2\" id = \"ultwo\">\
                                         <li class = \"li2\"><a class = \"a3\" href = \"#\" target = \"_blank\">动画电影</a></li>\
