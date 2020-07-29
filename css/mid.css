@@ -288,7 +288,6 @@ div.midAboutMe2 /*左框*/
     background-color:white;
     border-radius: 6px;
     float:left;
-    cursor: pointer;
     position:relative;
     top:1px;
 }
@@ -296,8 +295,7 @@ div.midAboutMe2 /*左框*/
 .midAboutMeStyle6 /*左框样式*/
 {
     height:16px;
-    width:130px;
-    border-radius: 6px;
+    width:100%;
     font-size:13px;
     font-weight:bold;
     color:#000000b7;
@@ -305,6 +303,7 @@ div.midAboutMe2 /*左框*/
     padding-left:0px;
     padding-top:5px;
     float:left;
+    cursor: pointer;
     position: relative;
     top:5px;
     left:15px;
@@ -319,10 +318,11 @@ div.midAboutMe3 /*右框*/
     margin:0px;
     padding-left:0px;
     padding-top:5px;
-    float:left;
+    float:right;
     cursor: default;
     position:relative;
     top:5px;
+    right:15px;
 }
 /*------*/
 
